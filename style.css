@@ -1,0 +1,215 @@
+header {
+    height:98vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('./images/BACKGROUND.jpg');
+position: relative;
+
+}
+.navbar-brand{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.nav-item{
+  padding-left: 1rem;
+}
+.navbar{
+  
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+.profileimg{
+    height: 15rem;
+    
+        border-style: solid;
+        border-color: aliceblue;
+        border-width: 2px;
+        border-radius: 100%;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+
+}
+.nav-link:hover {
+    background-color: #000000;
+  }
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+      position: absolute;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+      font-size: 25px;
+    }
+.hidden-spacer {
+    height: 67px
+}
+#whitetext{
+    color: aliceblue;
+}
+.subheadings{
+  font-family: 'Bebas Neue', cursive;
+    padding-bottom: 2rem;
+    font-size: 3.4rem;
+}
+#paragraphs{
+    font-size: 1.3rem;
+}
+.bioimg{
+   
+   width: 30rem;
+}
+.bio{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+    min-height: 40rem;
+}
+
+
+
+.section1{
+    margin:5% 20%;
+}
+.col-11{
+    padding-bottom: 3rem;
+}
+.section1 h4{
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+}
+.section1 .subheading{
+    color: #3931af;
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+}
+.text-muted{
+    font-size: 20px;
+}
+
+/* exp */
+.exp-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.exp-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.exp-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.exp-section1 .row
+{
+    margin-top: 10%;
+}
+.exp-img 
+{
+    text-align: center;
+}
+.exp-img img{
+    width: 80%;
+}
+
+.parallax {
+position: relative;
+
+    /* The image used */
+    background-image: url("./images/LOGO.jpeg");
+    
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(228, 52, 52);
+  }
+  #hotel-heading{
+    font-family: 'Bitter', serif;
+    font-size: 50px;
+    position: absolute;
+    top: 32%;
+    left: 26%;
+  }
+  #hotel-para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    position: absolute;
+    top: 53%;
+    left: 21%;
+  }
+
+  .project-data{
+    padding: 5% 15%;
+  }
+  #pro-text{
+    font-family: 'Arvo', serif;
+    font-size: 22px;
+  }
+  #clicklink{
+    font-family: 'Bitter', serif;
+    font-size: 25px;
+    
+  }
+
+  /* skills */
+  .skills{
+    padding:5% 8%;
+  }
+  .card-img-top{
+    padding: 20px;
+    height: 230px;
+    width: 80px;
+  }
+  .title{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  /* photography */
+  .photography {
+    position: relative;
+    
+        /* The image used */
+        background-image: url("./images/1.jpg");
+        
+        /* Set a specific height */
+        min-height: 300px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  #ph-heading{
+    color: aliceblue;
+    font-family: 'Bitter', serif;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 20%;
+    right: 20%;
+  }
+  
+  /* clicks */
+  .clicks{
+    padding: 5%;
+  }
+
+
+  /* footer */
+  #lets{
+    padding: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
